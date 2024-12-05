@@ -1,0 +1,57 @@
+.card {
+  border: 1px solid rgba(58, 55, 55, 0);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(46, 45, 45, 0.49);
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+  display: inline-block;
+  max-width: 250px;
+}
+.card .card-img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsla(0, 0%, 0%, 0.992);
+}
+.card .card-des {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsla(0, 0%, 0%, 0.718);
+}
+.card1 {
+  border: 1px solid rgba(30, 28, 28, 0);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.381);
+  max-width: 250px;
+  height: auto;
+  display: inline-block;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.card1 .card1-img {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+.card1 .card1-title {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.764);
+}
+.card1 .card-desc {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsla(0, 0%, 0%, 0.764);
+  display: -webkit-box; /* Creates a flex container */
+  -webkit-box-orient: vertical; /* Specifies the orientation */
+  overflow: hidden; /* Hides overflowing content */
+  text-overflow: ellipsis; /* Adds the ellipsis */
+  line-clamp: 3; /* Specifies the number of lines to display */
+  -webkit-line-clamp: 3; /* Limits content to 2 lines */
+}
